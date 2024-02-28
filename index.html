@@ -122,25 +122,32 @@
                             <span class="font-bold">Everyone can reply</span>
                         </div>
                         <div class="w-[90%] h-[0.2px] bg-gray-500 my-3"></div>
-                        <div class="blueicons flex gap-2 text-[#1d9bf0]">
-                            <span class="material-symbols-outlined cursor-pointer">
-                                image
-                            </span>
-                            <span class="material-symbols-outlined cursor-pointer">
-                                gif
-                            </span>
-                            <span class="material-symbols-outlined cursor-pointer">
-                                ballot
-                            </span>
-                            <span class="material-symbols-outlined cursor-pointer">
-                                sentiment_satisfied
-                            </span>
-                            <span class="material-symbols-outlined cursor-pointer">
-                                calendar_month
-                            </span>
-                            <span class="material-symbols-outlined cursor-pointer">
-                                pin_drop
-                            </span>
+                        <div class="flex justify-between">
+
+                            <div class="blueicons flex gap-2 text-[#1d9bf0] items-center">
+                                <span class="material-symbols-outlined cursor-pointer">
+                                    image
+                                </span>
+                                <span class="material-symbols-outlined cursor-pointer">
+                                    gif
+                                </span>
+                                <span class="material-symbols-outlined cursor-pointer">
+                                    ballot
+                                </span>
+                                <span class="material-symbols-outlined cursor-pointer">
+                                    sentiment_satisfied
+                                </span>
+                                <span class="material-symbols-outlined cursor-pointer">
+                                    calendar_month
+                                </span>
+                                <span class="material-symbols-outlined cursor-pointer">
+                                    pin_drop
+                                </span>
+                            </div>
+                            <div class="postbtn">
+                                <button
+                                    class=" bg-[#1a8cd8] px-6 mx-5 text-md py-2 rounded-full text-white font-bold">Post</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -351,16 +358,59 @@
                     </div>
                 </div>
 
-                <div class="who sticky top-[53vh] m-4 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-3">
+                <div class="who sticky top-[53vh] m-4 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-1">
                     <h1 class="text-xl font-bold px-3">Who to follow</h1>
-                    <div class="item px-3 p-3 space-y-4">
 
-                        <div class="font-bold cursor-pointer text-gray-200">CodeWithHarry</div>
-                        <div class="font-bold cursor-pointer text-gray-200">Virat Kohli</div>
-                        <div class="font-bold cursor-pointer text-gray-200">Narendra Modi</div>
-                        <div class="font-bold cursor-pointer text-gray-200">Rahul Gandhi</div>
+                    <div class="item p-3 flex justify-between items-center gap-2 hover:bg-[#1d1f23] cursor-pointer">
+                        <div class="flex gap-2">
+                            <div class="p1"><img class=" w-10 h-10 rounded-full"
+                                    src="https://pbs.twimg.com/profile_images/1629867156249907209/SxBoSkPc_normal.jpg"
+                                    alt="AK"></div>
+                            <div class="p2 ">
+                                <div>Arvind Kejriwal</div>
+                                <div class="text-gray-600">@arvindkejriwal</div>
+                            </div>
+                        </div>
+                        <div class="p3 "><button
+                                class="bg-white text-black px-4 py-2 rounded-full font-bold">Follow</button>
+                        </div>
                     </div>
-                    <div class="text-blue-600 px-3 my-5 underline cursor-pointer">Show More</div>
+
+                    <div class="item p-3 flex justify-between items-center gap-2 hover:bg-[#1d1f23] cursor-pointer">
+                        <div class="flex gap-2">
+                            <div class="p1"><img class=" w-10 h-10 rounded-full"
+                                    src="https://pbs.twimg.com/profile_images/1629867156249907209/SxBoSkPc_normal.jpg"
+                                    alt="AK"></div>
+                            <div class="p2 ">
+                                <div>Narendra Modi</div>
+                                <div class="text-gray-600">@narendramodi</div>
+                            </div>
+                        </div>
+                        <div class="p3 "><button
+                                class="bg-white text-black px-4 py-2 rounded-full font-bold">Follow</button>
+                        </div>
+                    </div>
+
+                    <div class="item p-3 flex justify-between items-center gap-2 hover:bg-[#1d1f23] cursor-pointer">
+                        <div class="flex gap-2">
+                            <div class="p1"><img class=" w-10 h-10 rounded-full"
+                                    src="https://pbs.twimg.com/profile_images/1629867156249907209/SxBoSkPc_normal.jpg"
+                                    alt="AK"></div>
+                            <div class="p2 ">
+                                <div>Virat Kohli</div>
+                                <div class="text-gray-600">@viratkohli</div>
+                            </div>
+                        </div>
+                        <div class="p3 "><button
+                                class="bg-white text-black px-4 py-2 rounded-full font-bold">Follow</button>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="text-blue-600 px-3 my-5 hover:underline cursor-pointer">Show More</div>
                 </div>
             </div>
     </body>
