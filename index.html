@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home/X</title>
+        <link rel="shortcut icon" href="//abs.twimg.com/favicons/twitter.3.ico">
         <link rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
         <link rel="stylesheet" href="./src/output.css">
@@ -23,9 +24,9 @@
                         </g>
                     </svg>
                 </div>
-                <div class="sidebar flex justify-end">
+                <div class="sidebar flex items-end flex-col">
 
-                    <ul class="flex flex-col text-2xl space-y-4 px-10 font-bold">
+                    <ul class="flex flex-col text-2xl space-y-1 px-10 font-bold">
                         <li
                             class="flex justify-start items-center gap-3 w-fit hover:bg-[#181818] hover:cursor-pointer px-5 py-3 hover:rounded-full">
                             <span class="text-3xl material-symbols-outlined"> home </span>Home
@@ -70,8 +71,14 @@
                             class="flex justify-start items-center gap-3 w-fit hover:bg-[#181818] hover:cursor-pointer px-5 py-3 hover:rounded-full">
                             <span class="text-3xl material-symbols-outlined"> pending </span>More
                         </li>
+                        <li>
+                            <div class="button w-full text-center my-4">
+                                <button class="bg-[#1a8cd8] px-20 text-xl py-3 rounded-full text-white">Post</button>
+                            </div>
+                        </li>
 
                     </ul>
+
                 </div>
             </div>
             <div class="second w-full border-[1px] border-x-white border-y-black">
@@ -85,13 +92,14 @@
 
                 <div class="whatsup flex gap-4 my-3">
                     <div class="img m-2 w-16">
-                        <img src="https://pbs.twimg.com/profile_images/1712828730358317056/EbUM7kps_x96.jpg" class="rounded-full" alt="">
+                        <img src="https://pbs.twimg.com/profile_images/1712828730358317056/EbUM7kps_x96.jpg"
+                            class="rounded-full" alt="">
                     </div>
                     <div class="w-full">
 
                         <input class="w-full h-7 my-2 text-xl bg-black text-white outline-none" type="text"
                             placeholder="What is happening?!">
-                        <div class="text-blue-600 flex items-center gap-1 w-full my-4">
+                        <div class="text-[#1a8cd8] flex items-center gap-1 w-full my-4">
                             <span class="material-symbols-outlined">globe_asia</span>
                             <span class="font-bold">Everyone can reply</span>
                         </div>
@@ -115,23 +123,161 @@
                             <span class="material-symbols-outlined cursor-pointer">
                                 pin_drop
                             </span>
-
-
-
-
-
-
                         </div>
                     </div>
-
                 </div>
                 <hr>
+                <div class="posts">
+                    <div class="post">
+                        <div class="flex">
+                            <div class="image m-4">
+                                <img class="rounded-full max-w-16"
+                                    src="https://pbs.twimg.com/profile_images/1521011653222932481/S1BEvjDb_normal.jpg"
+                                    alt="">
+                            </div>
+                            <div class="content my-3">
+                                <span class="font-bold hover:underline cursor-pointer text-white">Apple Hub</span><span
+                                    class="text-gray-500"> @theapplehub . 1h </span>
+                                <div>iOS 18 will reportedly be compatible with these iPhone models</div>
+                                <div class="posting m-4 ml-0">
+                                    <img class="rounded-xl"
+                                        src="https://pbs.twimg.com/media/GHWiQkMboAEAtWy?format=jpg&name=4096x4096"
+                                        alt="">
+                                </div>
+                                <div class="icons flex mx-3 justify-around text-gray-600">
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            chat_bubble
+                                        </span> 1.1k
+                                    </div>
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            repeat
+                                        </span> 2k
+                                    </div>
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            favorite
+                                        </span> 2.3k
+                                    </div>
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            bar_chart
+                                        </span> 30k
+                                    </div>
+                                    <span class="material-symbols-outlined">
+                                        bookmark
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                        ios_share
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
 
+                    </div>
+                    <hr>
+                    <div class="post">
+                        <div class="flex">
+                            <div class="image m-4">
+                                <img class="rounded-full max-w-16"
+                                    src="https://pbs.twimg.com/profile_images/1629867156249907209/SxBoSkPc_normal.jpg"
+                                    alt="">
+                            </div>
+                            <div class="content my-3">
+                                <span class="font-bold hover:underline cursor-pointer text-white">AAP</span><span
+                                    class="text-gray-500"> @AamAadmiParty . 3h </span>
+                                <div>भारत को दुनिया का No. 1 देश बनाने का Vision सिर्फ़ Arvind Kejriwal के पास है।</div>
+                                <div class="posting m-4 ml-0">
+                                    <img class="rounded-xl"
+                                        src="https://pbs.twimg.com/media/GHa23ngWMAABmJ4?format=jpg&name=large" alt="">
+                                </div>
+                                <div class="icons flex mx-3 justify-around text-gray-600">
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            chat_bubble
+                                        </span> 145
+                                    </div>
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            repeat
+                                        </span> 269
+                                    </div>
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            favorite
+                                        </span> 729
+                                    </div>
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            bar_chart
+                                        </span> 13k
+                                    </div>
+                                    <span class="material-symbols-outlined">
+                                        bookmark
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                        ios_share
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
 
+                    </div>
+                    <hr>
+                    <div class="post">
+                        <div class="flex">
+                            <div class="image m-4">
+                                <img class="rounded-full max-w-16"
+                                    src="https://pbs.twimg.com/profile_images/1395254075285860354/LG45JNi8_normal.jpg"
+                                    alt="">
+                            </div>
+                            <div class="content my-3">
+                                <span class="font-bold hover:underline cursor-pointer text-white">AajTak</span><span
+                                    class="text-gray-500"> @aajtak . 2h </span>
+                                <div>शंभू बॉर्डर पर जो किसान दिल्ली कूच को लेकर जोश में पुलिस द्वारा रखे गए बैरिकेट्स
+                                    तोड़ते या सरकारी संपत्ति को नुक्सान पहुंचाते नजर आए थे, इनके खिलाफ अब अंबाला पुलिस
+                                    सख्त कदम उठाने जा रही है. अंबाला पुलिस ने ऐसे कई किसानों की फोटो मीडिया से शेयर की
+                                    है, जो बॉर्डर पर उपद्रव करते…</div>
+                                <div class="posting m-4 ml-0">
+                                    <img class="rounded-xl"
+                                        src="https://pbs.twimg.com/media/GHbQPvdasAATIqh?format=jpg&name=medium" alt="">
+                                </div>
+                                <div class="icons flex mx-3 justify-around text-gray-600">
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            chat_bubble
+                                        </span> 156
+                                    </div>
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            repeat
+                                        </span> 879
+                                    </div>
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            favorite
+                                        </span> 5k
+                                    </div>
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            bar_chart
+                                        </span> 189k
+                                    </div>
+                                    <span class="material-symbols-outlined">
+                                        bookmark
+                                    </span>
+                                    <span class="material-symbols-outlined">
+                                        ios_share
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr>
+                </div>
             </div>
-
-
-
             <div class="third w-full">
                 <div class="search m-3">
                     <input type="text" class="w-1/2 rounded-full bg-[#16181c] text-white px-4 py-2 "
