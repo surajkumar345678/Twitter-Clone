@@ -11,12 +11,13 @@ Insert screenshots of the application here to provide a visual overview.
 
 *Screenshot 1:*
 
-![Screenshot (20)](https://github.com/surajkumar345678/Twitter-Clone/assets/60316890/f29d9080-537a-44ec-9f93-c8db707ef2c9)
+![Screenshot (22)](https://github.com/surajkumar345678/Twitter-Clone/assets/60316890/0f8658ce-677a-4acb-9949-6dfbf16f07dc)
 
 
 *Screenshot 2:*
 
-![Screenshot (21)](https://github.com/surajkumar345678/Twitter-Clone/assets/60316890/e3d0436a-10a4-4d80-9503-c03b032a9006)
+![Screenshot (23)](https://github.com/surajkumar345678/Twitter-Clone/assets/60316890/fe1e239e-6e48-4d85-8dc5-ab85b82c874f)
+
 
 ## Live Demo
 
